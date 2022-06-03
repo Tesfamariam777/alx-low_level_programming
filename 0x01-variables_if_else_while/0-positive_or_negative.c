@@ -4,7 +4,7 @@
 
 /**
  * main - This is a main function
- * Return : 0 if correctly excuted other otherwise
+ * Return: 0 if correctly excuted other otherwise
  */
 int main(void)
 {
