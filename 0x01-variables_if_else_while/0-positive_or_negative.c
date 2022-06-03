@@ -1,13 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 
 /**
  * main - This is a main function
- * Return : It returns 0 if correctly excuted
+ * Return : 0 if correctly excuted other otherwise
  */
 int main(void)
 {
