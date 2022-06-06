@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-        short num1;
+	short num1;
 	short num2;
 	short num3;
 
