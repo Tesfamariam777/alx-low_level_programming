@@ -5,17 +5,20 @@
  */
 int main(void)
 {
-        short num = 0;
-        
-	while (num <= 9)
+        short num;
+
+        for (num = 0; num <= 9; num++)
         {
                 putchar('0' + num);
-		putchar(',');
-		putchar(' ');
+		if (num == 9)
+			continue;
+                putchar(',');
+                putchar(' ');
                 num++;
         }
-	putchar('\n');
+        putchar('\n');
         return (0);
 }
+
 
 
